@@ -7,12 +7,41 @@ import Foot from "./footer.jsx";
 //include images into your bundle
 
 //create your first component
-const Home = () => {
+const Home = (props) => {
 	return (
 		<div>
 			<Navbar />
 			<Jumbotron />
-			<Cards />
+			<div className="card-group">
+				<Cards
+					title="Card title"
+					description="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+					buttonLabel="Go somewhere"
+					buttonURL="#"
+				/>
+				;
+				<Cards
+					title="Card title"
+					description="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+					buttonLabel="Go somewhere"
+					buttonURL="#"
+				/>
+				;
+				<Cards
+					title="Card title"
+					description="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+					buttonLabel="Go somewhere"
+					buttonURL="#"
+				/>
+				;
+				<Cards
+					title="Card title"
+					description="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+					buttonLabel="Go somewhere"
+					buttonURL="#"
+				/>
+				;
+			</div>
 			<Foot />
 		</div>
 	);
