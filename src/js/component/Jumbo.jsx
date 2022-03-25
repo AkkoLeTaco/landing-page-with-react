@@ -1,17 +1,15 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import PropTypes from "prop-types";
 
 //include images into your bundle
 
 //create your first component
 const Jumbotron = (props) => {
 	let back = {
-		width: "60%",
+		width: "84%",
 		margin: "0 auto",
 	};
 	return (
-		<div style={back} className="jumbotron bg-light">
+		<div style={back} className="jumbotron bg-secondary">
 			<h1 className="display-4">Hello, world!</h1>
 			<p className="lead">
 				This is a simple hero unit, a simple jumbotron-style component

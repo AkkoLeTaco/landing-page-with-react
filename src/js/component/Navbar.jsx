@@ -5,7 +5,7 @@ import React from "react";
 //create your first component
 const Navbar = () => {
 	let side = {
-		marginLeft: "1000px",
+		marginLeft: "1145px",
 	};
 	return (
 		<nav className="navbar navbar-expand-lg navbar-light bg-dark">

@@ -12,41 +12,41 @@ const Home = (props) => {
 		justifyContent: "center",
 	};
 	return (
-		<div>
+		<>
 			<Navbar />
-			<Jumbotron />
-			<div className="card-group">
-				<Cards
-					title="Card title"
-					description="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
-					buttonLabel="Go somewhere"
-					buttonURL="#"
-				/>
-				;
-				<Cards
-					title="Card title"
-					description="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
-					buttonLabel="Go somewhere"
-					buttonURL="#"
-				/>
-				;
-				<Cards
-					title="Card title"
-					description="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
-					buttonLabel="Go somewhere"
-					buttonURL="#"
-				/>
-				;
-				<Cards
-					title="Card title"
-					description="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
-					buttonLabel="Go somewhere"
-					buttonURL="#"
-				/>
-				;
+			<div className="container">
+				<Jumbotron />
+				<div
+					style={{ width: "85%", margin: "0 auto" }}
+					className="card-group">
+					<Cards
+						title="Card title"
+						description="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+						buttonLabel="Go somewhere"
+						buttonURL="#"
+					/>
+					<Cards
+						title="Card title"
+						description="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+						buttonLabel="Go somewhere"
+						buttonURL="#"
+					/>
+					<Cards
+						title="Card title"
+						description="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+						buttonLabel="Go somewhere"
+						buttonURL="#"
+					/>
+					<Cards
+						title="Card title"
+						description="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+						buttonLabel="Go somewhere"
+						buttonURL="#"
+					/>
+				</div>
 			</div>
 			<Foot />
-		</div>
+		</>
 	);
 };
 
