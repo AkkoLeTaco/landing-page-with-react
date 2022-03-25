@@ -8,6 +8,9 @@ import Foot from "./footer.jsx";
 
 //create your first component
 const Home = (props) => {
+	let cen = {
+		justifyContent: "center",
+	};
 	return (
 		<div>
 			<Navbar />

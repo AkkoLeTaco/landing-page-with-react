@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 const Cards = (props) => {
 	let pics = {
 		width: "18rem",
-		display: "flex",
+		margin: "0px 10px 0px 5px",
 	};
 	return (
 		<div style={pics} className="card-group">
