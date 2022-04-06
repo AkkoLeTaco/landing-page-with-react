@@ -5,7 +5,7 @@ import React from "react";
 //create your first component
 const Navbar = () => {
 	let side = {
-		marginLeft: "1200px",
+		marginLeft: "64%",
 		position: "absolute",
 	};
 	return (
